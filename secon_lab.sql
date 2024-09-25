@@ -92,5 +92,5 @@ WHERE country_id IN (SELECT country_id FROM countries);
 
 
 --2.16 Remove all rows from countries table. Statement should return all deleted data.
-DELETE FROM countries5
+DELETE FROM countries
 RETURNING *;
